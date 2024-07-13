@@ -27,7 +27,5 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 
 nmap <F8> :TagbarToggle<CR>
 
-:colorscheme jellybeans
-
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
