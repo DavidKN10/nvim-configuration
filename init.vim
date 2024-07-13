@@ -15,6 +15,7 @@ Plug 'https://github.com/tpope/vim-commentary' " To add comments gcc and gc
 Plug 'https://github.com/neoclide/coc.nvim' " code auto completion
 Plug 'https://github.com/tpope/vim-surround' " Surround with () ysw)
 Plug 'https://github.com/terryma/vim-multiple-cursors' " For multiple cursors ctrl + n
+Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
 
 set encoding=UTF-8
 
@@ -23,6 +24,10 @@ call plug#end()
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
+
+nmap <F8> :TagbarToggle<CR>
+
+:colorscheme jellybeans
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
